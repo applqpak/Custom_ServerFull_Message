@@ -1,0 +1,13 @@
+name: CustomServerFullMessage
+version: 1.0.0
+author: applqpak
+api: [1.0.0]
+main: ServerFull\Main
+commands:
+  serverfull:
+    usage: "/serverfull < message >"
+    description: Change The Server is full Message!
+    permission: serverfull.command
+permissions:
+  serverfull.command:
+    default: op
